@@ -121,8 +121,8 @@
       "name": "Player",
       "persistentUuid": "531d1c3f-aae2-413f-ba87-81f0b6673f1b",
       "width": 90,
-      "x": 149,
-      "y": 163,
+      "x": 379,
+      "y": 72,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -5006,6 +5006,7 @@
       "colorG": 16,
       "colorR": 189,
       "creationTime": 0,
+      "folded": true,
       "name": "Controlling the character",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5027,6 +5028,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Mobile touchscreen controls",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5203,6 +5205,7 @@
       "colorG": 16,
       "colorR": 189,
       "creationTime": 0,
+      "folded": true,
       "name": "Player character",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5216,6 +5219,51 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "More comments"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "This is how you comment. ( Shift+ C )"
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -5645,6 +5693,7 @@
       "colorG": 16,
       "colorR": 189,
       "creationTime": 0,
+      "folded": true,
       "name": "Fly enemy",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5814,6 +5863,7 @@
       "colorG": 16,
       "colorR": 189,
       "creationTime": 0,
+      "folded": true,
       "name": "Monster enemy",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5989,6 +6039,7 @@
       "colorG": 16,
       "colorR": 189,
       "creationTime": 0,
+      "folded": true,
       "name": "End game logic",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6203,6 +6254,7 @@
       "colorG": 16,
       "colorR": 189,
       "creationTime": 0,
+      "folded": true,
       "name": "Game environment",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
